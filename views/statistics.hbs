@@ -1,0 +1,79 @@
+{{> menu id="statistics"}}
+<section class="ui center aligned middle aligned segment">
+
+  <style>
+    </style>
+
+      <h1 class="ui header">Statistics</h1>
+      <div class="ui centered grid">
+        <div class="row">  
+          <div class="four wide column">
+            <div class="ui center aligned statistic-card">
+              <div class="ui statistic">
+                <div class="value" style="color: lightblue;">{{totalNumberBookCollections}}</div>
+                <div class="label" style="color: lightblue;">Book Collections</div>
+              </div>
+              <i class="book icon big" style="color: lightblue;"></i>
+            </div>
+          </div>
+          <div class="four wide column">
+            <div class="ui center aligned statistic-card ">
+              <div class="ui statistic">
+                <div class="value large blue" style="color: lightgreen;">{{averageNumberOfBooks}}</div>
+                <div class="label" style="color: lightgreen;">Average Books</div>
+              </div>
+              <i class="chart line icon big" style="color: lightgreen;"></i>
+            </div>
+          </div>
+          <div class="four wide column">
+            <div class="ui center aligned statistic-card">
+              <div class="ui statistic">
+                <div class="value" style="color: orange;">{{totalNumberOfBooks}}</div>
+                <div class="label" style="color: orange;">Total Books</div>
+              </div>
+              <i class="certificate icon big" style="color: orange;"></i>
+            </div>
+          </div>
+          <div class="four wide column">
+            <div class="ui center aligned statistic-card">
+              <div class="ui statistic">
+                <div class="value" style="color: purple;">8</div>
+                <div class="label" style="color: purple;">User Profiles</div>
+              </div>
+              <i class="user icon big" style="color: purple;"></i>
+            </div>
+          </div>
+      </div>
+</section>
+
+  <section class="ui segment">
+    <h1 class="ui eader">Collection with most books</h1>
+    <h2 class="ui header">
+      {{collectionNameMostBooks}}
+    </h2>
+    <p> Total Books: {{collectionNameMostBooksTotal}} </p>
+    
+    <a href="/bookcollection/{{collectionMostBooksID}}">
+      <i class="icon open folder olive"></i>
+    </a>
+    
+    <a href="/bookCollection/deleteBookCollection/{{collectionMostBooksID}}">
+      <i class="icon trash orange delBookCollection"></i>
+    </a>
+  </section>
+  
+    <section class="ui segment">
+    <h1 class="ui eader">Collection with least books</h1>
+    <h2 class="ui header">
+      {{collectionNameLeastBooks}}
+    </h2>
+    <p> Total Books: {{collectionNameLeastBooksTotal}} </p>
+    
+    <a href="/bookcollection/{{collectionLeastBooksID}}">
+      <i class="icon open folder olive"></i>
+    </a>
+    
+    <a href="/bookCollection/deleteBookCollection/{{collectionLeastBooksID}}">
+      <i class="icon trash orange delBookCollection"></i>
+    </a>
+  </section>

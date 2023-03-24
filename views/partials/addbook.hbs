@@ -1,0 +1,35 @@
+<form class="ui stacked segment form" action="/bookCollection/{{bookCollection.id}}/addBook" method="POST">
+  <div class="fields">
+    <div class="field">
+      <label>Book Title</label>
+      <input type="text" name="Title" autofocus required title = "Please include a valid Book Title"
+      placeholder="Title">
+    </div>
+    
+    <div class="field">
+      <label>Author</label>
+      <input type="text" name="Author" required title = "Please include a valid Author"
+      placeholder="Author"  >
+    </div>
+    
+    <div class="field">
+      <label>Publication Date</label>
+      <input type="text" name="PublicationDate" required title = "Please include a valid Publication Date"
+      placeholder="Publication Date"  >
+    </div>
+    
+    <div class="field">
+      <label>Publisher</label>
+      <input type="text" name="Publisher" required title = "Please include a valid Publisher"
+      placeholder="Publisher"  >
+    </div>
+    
+    <div class="field">
+      <label>ISBN</label>
+      <input type="text" name="ISBN" required title = "Please include a valid ISBN"
+      placeholder="ISBN"  >
+    </div>
+    
+  </div>
+  <button class="ui blue submit button">Add Book</button>
+</form>

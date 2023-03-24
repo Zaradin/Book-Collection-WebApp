@@ -1,0 +1,200 @@
+{
+  "bookCollections": [
+    {
+      "id": "02",
+      "collectionName": "Science Fiction",
+      "views": 0,
+      "books": [
+        {
+          "id": "33",
+          "title": "Dune",
+          "author": "Frank Herbert",
+          "publicationDate": "August 1, 1965",
+          "publisher": "Chilton Books",
+          "isbn": "978-0-441-17271-9",
+          "coverImage": "http://books.google.com/books/content?id=nrRKDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+        },
+        {
+          "id": "34",
+          "title": "Ender's Game",
+          "author": "Orson Scott Card",
+          "publicationDate": "August 15, 1985",
+          "publisher": "Tor Books",
+          "isbn": "978-0-8125-5070-2",
+          "coverImage": "http://books.google.com/books/content?id=5tCSc9pZPBwC&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+        },
+        {
+          "id": "35",
+          "title": "Brave New World",
+          "author": "Aldous Huxley",
+          "publicationDate": "January 1, 1932",
+          "publisher": "Chatto & Windus",
+          "isbn": "978-0-06-092987-9",
+          "coverImage": "http://books.google.com/books/content?id=5H46PcnDCYMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+        },
+        {
+          "id": "4c97a34e-4f05-4011-ab26-c7836dcbed22",
+          "title": "Neuromancer",
+          "author": "William Gibson",
+          "publicationDate": "July 1, 1984",
+          "publisher": "Penguin",
+          "isbn": "0441007465",
+          "coverImage": "http://books.google.com/books/content?id=IDFfMPW32hQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+        },
+        {
+          "id": "1439aef2-9e94-44fd-a2be-2d0462514b1e",
+          "title": "A Space Odyssey",
+          "author": "Arthur C. Clarke",
+          "publicationDate": "1968",
+          "publisher": "Penguin",
+          "isbn": "9780748120789",
+          "coverImage": "http://books.google.com/books/content?id=HtDpW3qwc88C&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+        }
+      ]
+    },
+    {
+      "id": "01",
+      "collectionName": "Fiction",
+      "views": 0,
+      "books": [
+        {
+          "id": "31",
+          "title": "1984",
+          "author": "George Orwell",
+          "publicationDate": "June 8, 1949",
+          "publisher": "Secker & Warburg",
+          "isbn": "0008322066",
+          "coverImage": "http://books.google.com/books/content?id=-VmgzQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+        },
+        {
+          "id": "32",
+          "title": "Pride and Prejudice",
+          "author": "Jane Austen",
+          "publicationDate": "January 28, 1813",
+          "publisher": "T. Egerton, Whitehall",
+          "isbn": "9788172344504",
+          "coverImage": "http://books.google.com/books/content?id=dsznmgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+        },
+        {
+          "id": "edcfb5f1-4882-4a85-b67b-ca874e3e04e6",
+          "title": "The Paris Apartment",
+          "author": "Lucy Foley",
+          "publicationDate": "29 Sept. 2022",
+          "publisher": "HarperCollins",
+          "isbn": "0008385076",
+          "coverImage": "http://books.google.com/books/content?id=YcUMzgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+        },
+        {
+          "id": "5080eef0-58e8-4de2-9b58-a0bf94088769",
+          "title": "Verity",
+          "author": "Colleen Hoover",
+          "publicationDate": "20 Jan. 2022",
+          "publisher": "Sphere",
+          "isbn": "1408726602",
+          "coverImage": "http://books.google.com/books/content?id=0TbUzgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+        }
+      ]
+    },
+    {
+      "id": "c90dafd4-c996-4f8a-a6a3-55d052971638",
+      "collectionName": "Must Buys",
+      "books": [
+        {
+          "id": "eef402ab-91bd-4974-9ae9-d0751c51e29c",
+          "title": "Sir Gawain And The Green Knight",
+          "author": "J.R.R. Tolkien",
+          "publicationDate": "July 27, 2021",
+          "publisher": "William Morrow",
+          "isbn": "0358652979",
+          "coverImage": "http://books.google.com/books/content?id=htUqEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+        },
+        {
+          "id": "d8b3983b-8e17-4341-953e-896ffcbdb341",
+          "title": "Mockingjay",
+          "author": "Suzanne Collins",
+          "publicationDate": "2010",
+          "publisher": "Scholastic Incorporated",
+          "isbn": "9780545317801",
+          "coverImage": "http://books.google.com/books/content?id=Iw_gHtk4ghYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+        },
+        {
+          "id": "cb12abe7-e176-4fdd-8da2-8b01a09b003f",
+          "title": "Hands-On Machine Learning",
+          "author": "Aurélien Géron",
+          "publicationDate": "2019",
+          "publisher": "O'Reilly Media",
+          "isbn": "9781492032595",
+          "coverImage": "http://books.google.com/books/content?id=HnetDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+        },
+        {
+          "id": "5ae761f7-d598-4027-b9e1-bcc75548c5a5",
+          "title": "Automate the Boring Stuff with Python",
+          "author": "Al Sweigart",
+          "publicationDate": "2019",
+          "publisher": "No Starch Press",
+          "isbn": "9781593279936",
+          "coverImage": "http://books.google.com/books/content?id=RQ6xDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "collectionName": "History",
+      "views": 0,
+      "books": [
+        {
+          "id": "36",
+          "title": "The Guns of August",
+          "author": "Barbara W. Tuchman",
+          "publicationDate": "1962",
+          "publisher": "Macmillan",
+          "isbn": "978-0-345-47609-8",
+          "coverImage": "http://books.google.com/books/content?id=XWCPDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+        },
+        {
+          "id": "37",
+          "title": "The Rise and Fall of the Third Reich",
+          "author": "William L. Shirer",
+          "publicationDate": "1960",
+          "publisher": "Simon & Schuster",
+          "isbn": "9780099421764",
+          "coverImage": "http://books.google.com/books/content?id=zI77vuDI6_sC&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+        },
+        {
+          "id": "38",
+          "title": "A Short History of Nearly Everything",
+          "author": "Bill Bryson",
+          "publicationDate": "2003",
+          "publisher": "Black Swan",
+          "isbn": "978-0-7679-0817-7",
+          "coverImage": "http://books.google.com/books/content?id=8_OOEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+        }
+      ]
+    },
+    {
+      "id": "31988d41-d4a4-4543-8230-e76c0dd7dc13",
+      "collectionName": "What to read",
+      "views": 0,
+      "books": [
+        {
+          "id": "8108b13a-cc07-476c-906e-94e66f995306",
+          "title": "Pro Node.js for Developers",
+          "author": "Colin J. Ihrig",
+          "publicationDate": "2013",
+          "publisher": "Apress",
+          "isbn": "9781430258605",
+          "coverImage": "http://books.google.com/books/content?id=nO9ZAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api"
+        },
+        {
+          "id": "cb85fdf9-c241-4231-bf85-a7a523f6ea34",
+          "title": "Database Design and Relational Theory",
+          "author": "C. J. Date",
+          "publicationDate": "16 Dec. 2019",
+          "publisher": "Design ",
+          "isbn": "1484255399",
+          "coverImage": "http://books.google.com/books/content?id=VyBOygEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: lightgrey;
+}
+
+label {
+  color: white !important;
+}
+
+.listBooksSegment{
+  border: 1px solid #ddd !important;
+}
+.listBooksSegment:hover{
+    transform: scale(1.05);
+   box-shadow: 0 0 20px #ddd;
+}
+
+.listBookCards:hover{
+   box-shadow: 0 0 20px #ddd !important;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+  padding: 5px;
+}
+.myheader a{
+  color: #eee !important;
+}
+
+.ui.menu .active.item{
+  background: #333 !important;
+  color: #eee !important;
+  font-weight: bold !important;
+  font-size: 1.4em;
+  box-shadow: none !important;
+}
+
+.statistic-card {
+  border: 1px solid #ddd;
+  padding: 1em;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+.statistic-card:hover {
+  transform: scale(1.05);
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.card {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.card.visible {
+  opacity: 1;
+}
+
+/* Dark mode */
+body {
+  background-color: #222;
+  color: #eee;
+}
+
+/* Menu */
+.ui.menu {
+  background-color: #111;
+}
+.ui.menu .item {
+  color: #eee !important;
+}
+
+.ui.menu .item:hover {
+  background-color: #555;
+}
+
+/* Cards */
+.ui.card {
+  background-color: #333 !important;
+  color: #eee !important;
+}
+
+.ui.card .header {
+  color: #eee !important;
+}
+
+.ui.card .meta {
+  color: #bbb !important;
+}
+
+.ui.card .description {
+  color: #bbb !important;
+}
+
+.ui.card .extra .content {
+  color: #eee !important;
+}
+
+/* Containers */
+.ui.container {
+  background-color: #222;
+  color: #eee;
+}
+
+/* Sections */
+.ui.section {
+  background-color: #333;
+  color: #eee;
+}
+
+.ui.section h1,
+.ui.section h2,
+.ui.section h3,
+.ui.section h4,
+.ui.section h5,
+.ui.section h6 {
+  color: #eee;
+}
+
+/* Segments */
+.ui.segment {
+  background-color: #333;
+  color: #eee;
+}
+
+.ui.segment h1,
+.ui.segment h2,
+.ui.segment h3,
+.ui.segment h4,
+.ui.segment h5,
+.ui.segment h6 {
+  color: #eee;
+}
+
+/* Buttons */
+.ui.button {
+  background-color: #555;
+  color: #eee;
+}
+
+.ui.button:hover {
+  background-color: #777;
+  color: #eee;
+}
+
+/* Tables */
+.ui.table {
+  background-color: #333;
+  color: #eee;
+}
+th {
+  color: #eee !important;
+  background-color: #444 !important;
+  border-color: #777 !important;
+}
+/* Input fields */
+.ui.input input[type="text"],
+.ui.input input[type="password"],
+.ui.input input[type="email"],
+.ui.input input[type="tel"],
+.ui.input input[type="url"],
+.ui.input input[type="search"],
+.ui.input input[type="number"] {
+  background-color: #333;
+  color: #eee;
+  border-color: #555;
+}
+
+.ui.input input[type="text"]:focus,
+.ui.input input[type="password"]:focus,
+.ui.input input[type="email"]:focus,
+.ui.input input[type="tel"]:focus,
+.ui.input input[type="url"]:focus,
+.ui.input input[type="search"]:focus,
+.ui.input input[type="number"]:focus,
+input:focus {
+  background-color: #444 !important;
+  color: #eee !important;
+  border-color: #777 !important;
+}
+/* Forms */
+.ui.form input[type="text"],
+.ui.form input[type="email"],
+.ui.form input[type="password"],
+.ui.form select,
+.ui.form textarea {
+  background-color: #444;
+  color: #eee;
+  border-color: #777;
+}
+
+.ui.form input[type="text"]:focus,
+.ui.form input[type="email"]:focus,
+.ui.form input[type="password"]:focus,
+.ui.form select:focus,
+.ui.form textarea:focus {
+  border-color: #eee;
+}
+
+.ui.form .field.error input,
+.ui.form .field.error select,
+.ui.form .field.error textarea {
+  border-color: #f00 !important;
+}
+
+.ui.form .error.message {
+  background-color: #f00;
+  color: #eee;
+}

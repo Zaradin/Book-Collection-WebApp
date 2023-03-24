@@ -1,0 +1,16 @@
+{{#each bookcollection}}
+  <section class="ui segment listBooksSegment">
+    <h2 class="ui header">
+      {{collectionName}}
+    </h2>
+    <p> Total Books: {{books.length}} </p>
+    
+    <a href="/bookcollection/{{id}}">
+      <i class="icon open folder olive"></i>
+    </a>
+    
+    <a href="/bookCollection/deleteBookCollection/{{id}}">
+      <i class="icon trash orange delBookCollection"></i>
+    </a>
+  </section>
+{{/each}}

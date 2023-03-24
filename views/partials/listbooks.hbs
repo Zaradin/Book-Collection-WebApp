@@ -1,0 +1,55 @@
+<table class="ui fixed striped table">
+  <thead>
+    <tr>
+      <th>Book Title</th>
+      <th>Author</th>
+      <th>Publication Date</th>
+      <th>Publisher</th>
+      <th>ISBN</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each bookCollection.books}}
+    <form class = "ui stacked segment form" action="/bookCollection/{{../bookCollection.id}}/updatebook/{{id}}" method="POST">
+      <tr class="fields">
+        <td class="field">
+          <span class="ui input">
+            <input style="width:100%" type="text" name="title" autofocus required title = "Please include a valid Title" placeholder="Title" value = "{{title}}">
+          </span>
+        </td>
+        
+        <td class="field">
+          <span class="ui input">
+            <input style="width:100%" type="text" name="author" required title = "Please include a valid Author" placeholder="Author" value = "{{author}}">
+          </span>
+        </td>
+        
+        <td class="field">
+          <span class="ui input">
+            <input style="width:100%" type="text" name="publicationDate" autofocus required title = "Please include a valid Publication Date" placeholder="Publication Date" value = "{{publicationDate}}">
+          </span>
+        </td>
+        
+        <td class="field">
+          <span class="ui input">
+            <input style="width:100%" type="text" name="publisher" required title = "Please enter a valid Publisher" placeholder="Publisher" value = "{{publisher}}">
+          </span>
+        </td>
+        
+        <td class="field">
+          <span class="ui input">
+            <input style="width:100%" type="text" name="isbn" required title = "Please enter a valid isbn" placeholder="isbn" value = "{{isbn}}">
+          </span>
+        </td>
+        
+        <td class="center aligned">
+          <button class="ui submit icon button"><i class="ui pencil alternate icon" style="color: #3687cf"></i></button>
+          <a href="/bookCollection/{{../bookCollection.id}}/deleteBook/{{id}}"
+             class="ui icon button delbook"><i class="ui trash icon" style="color: #d62b31"></i></a>
+        </td>
+      </tr>
+      </form> 
+    {{/each}}
+  </tbody>
+</table>

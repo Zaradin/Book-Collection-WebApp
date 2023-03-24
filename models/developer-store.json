@@ -1,0 +1,13 @@
+{"developers":
+  [
+    {
+      "name":"Josh",
+      "fullname":"Josh Crotty",
+      "image":"https://cdn.glitch.global/86729817-74c2-4e07-8205-80fb02826f4c/profile-image.jpg?v=1678743888716",
+      "joined":2023,
+      "job":"Software Engineer",
+      "city":"Waterford",
+      "age":25
+    }
+  ]
+}
